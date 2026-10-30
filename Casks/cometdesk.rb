@@ -1,6 +1,6 @@
 cask "cometdesk" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "7fa2a5f9459d80ee5d5d16ac072b273108a5122cdbda35f1e7f72f521264482d"
 
   url "https://github.com/AnisAbdellatif/homebrew-tap/releases/download/cometdesk-v#{version}/CometDesk-#{version}-arm64.dmg"
   name "CometDesk"
