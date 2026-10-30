@@ -8,7 +8,7 @@ cask "cometdesk" do
   homepage "https://github.com/AnisAbdellatif/homebrew-tap"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "CometDesk.app"
 
