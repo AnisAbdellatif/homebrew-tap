@@ -7,8 +7,8 @@ cask "parabole" do
   desc "IPTV player for M3U playlists and Xtream sources, playing through mpv"
   homepage "https://github.com/AnisAbdellatif/parabole"
 
-  depends_on :macos
   depends_on arch: :arm64
+  depends_on :macos
 
   app "Parabole.app"
 
