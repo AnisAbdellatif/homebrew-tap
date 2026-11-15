@@ -1,6 +1,6 @@
 cask "salatwidget" do
-  version "1.1.0"
-  sha256 "f5a731f8ae070c6e411f26041712ab65ae96393784258a1de918a30a5e3bbad6"
+  version "1.1.1"
+  sha256 "ff5dac62ff5fc8460a945aa3c6abd8e18f7889b15e19a0b9fb25c30dc4e86107"
 
   url "https://github.com/AnisAbdellatif/SalatWidget/releases/download/v#{version}/SalatWidget-#{version}.dmg"
   name "SalatWidget"
