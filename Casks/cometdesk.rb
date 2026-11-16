@@ -1,11 +1,11 @@
 cask "cometdesk" do
-  version "0.1.0"
-  sha256 "7fa2a5f9459d80ee5d5d16ac072b273108a5122cdbda35f1e7f72f521264482d"
+  version "0.1.1"
+  sha256 "f57ac3fb94a4c32f3424ac3176fcfd93212c72917a6b06b229ca2e971a61d4de"
 
-  url "https://github.com/AnisAbdellatif/homebrew-tap/releases/download/cometdesk-v#{version}/CometDesk-#{version}-arm64.dmg"
+  url "https://github.com/AnisAbdellatif/cometdesk/releases/download/v#{version}/CometDesk-#{version}-arm64.dmg"
   name "CometDesk"
   desc "Native macOS console for GL.iNet Comet KVM"
-  homepage "https://github.com/AnisAbdellatif/homebrew-tap"
+  homepage "https://github.com/AnisAbdellatif/cometdesk"
 
   depends_on arch: :arm64
   depends_on macos: :monterey
