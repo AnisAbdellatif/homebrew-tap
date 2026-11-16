@@ -1,6 +1,6 @@
 cask "parabole" do
-  version "0.1.1"
-  sha256 "696ba4d552a56e723b5978c0ed75bdd87cce431103fdf8af616f27a29617798b"
+  version "0.2.0"
+  sha256 "c8601cf2c06c251fcb2bffd4219d860648924f7de7f425b949b3342655f203df"
 
   url "https://github.com/AnisAbdellatif/parabole/releases/download/v#{version}/Parabole-#{version}-macos-arm64.dmg"
   name "Parabole"
