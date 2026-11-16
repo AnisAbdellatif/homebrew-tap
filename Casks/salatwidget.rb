@@ -12,9 +12,8 @@ cask "salatwidget" do
   app "SalatWidget.app"
 
   # Ad-hoc signed, not notarized: drop the quarantine flag so Gatekeeper doesn't block launch.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/SalatWidget.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "SalatWidget.app"], base: :appdir
   end
 
   zap trash: [

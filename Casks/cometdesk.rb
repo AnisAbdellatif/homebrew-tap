@@ -13,9 +13,8 @@ cask "cometdesk" do
   app "CometDesk.app"
 
   # Ad-hoc signed, not notarized: drop the quarantine flag so Gatekeeper doesn't block launch.
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/CometDesk.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "CometDesk.app"], base: :appdir
   end
 
   zap trash: "~/Library/Preferences/rs.cometdesk.console.plist"
